@@ -1,0 +1,23 @@
+{
+  "name": "elm-basic-webpack-bootstrap",
+  "version": "1.0.0",
+  "description": "Just my basic initial elm bootstrap with webpack",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "elm-webpack-loader": "^4.4.0",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.20.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
